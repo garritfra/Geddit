@@ -7,7 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
+    private ArrayList<String> posts = new ArrayList<>();
+
 
     private TextView mTextMessage;
 
